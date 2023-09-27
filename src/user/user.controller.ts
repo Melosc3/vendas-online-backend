@@ -12,8 +12,8 @@ export class UserController {
         return this.userService.createUser(createUser);
     }
 
-    @Get()
-    async getAllUser(): Promise<User[]> {
-        return this.userService.getAllUser();
-    }
+    // @Get()
+    // async getAllUser(): Promise<User[]> {
+    //     return this.userService.getAllUser();
+    // }
 }
